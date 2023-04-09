@@ -7,6 +7,9 @@ ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
+# title
+ENV TITLE=Opera
+
 RUN \
   apt-get update && \
   apt-get install --no-install-recommends -y \
