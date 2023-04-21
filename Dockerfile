@@ -27,9 +27,10 @@ RUN \
   mv \
     /usr/bin/opera \
     /usr/bin/opera-real && \
+  FFMPEG_DEB=$(curl -sL http://security.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/ | awk -F'"' '/ffmpeg-extra/ && /amd64/ {print $8}' | tail -1) && \
   curl -o \
     /tmp/chromiumffmpeg.deb -L \
-    "http://security.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/chromium-codecs-ffmpeg-extra_111.0.5563.64-0ubuntu0.18.04.5_amd64.deb" && \
+    "http://security.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/${FFMPEG_DEB}" && \
   dpkg -i /tmp/chromiumffmpeg.deb && \
   mv \
     /usr/lib/chromium-browser/libffmpeg.so \
