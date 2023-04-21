@@ -67,7 +67,7 @@ cacache                                                                       17
 call-bind                                                                     1.0.2                                              npm        
 chalk                                                                         4.1.2                                              npm        
 chownr                                                                        2.0.0                                              npm        
-chromium-codecs-ffmpeg-extra                                                  111.0.5563.64-0ubuntu0.18.04.5                     deb        
+chromium-codecs-ffmpeg-extra                                                  112.0.5615.49-0ubuntu0.18.04.1                     deb        
 ci-info                                                                       3.8.0                                              npm        
 cidr-regex                                                                    3.1.1                                              npm        
 clean-stack                                                                   2.2.0                                              npm        
@@ -962,7 +962,7 @@ once                                                                          1.
 openbox                                                                       3.6.1-9+deb11u1                                    deb        
 openssh-client                                                                1:8.4p1-5+deb11u1                                  deb        
 openssl                                                                       1.1.1n-0+deb11u4                                   deb        
-opera-stable                                                                  97.0.4719.83                                       deb        
+opera-stable                                                                  98.0.4759.6                                        deb        
 p-map                                                                         4.0.0                                              npm        
 pacote                                                                        15.1.1                                             npm        
 parse-conflict-json                                                           3.0.0                                              npm        
