@@ -24,7 +24,7 @@ NAME                                                                          VE
 @tootallnate/once                                                             2.0.0                                              npm        
 @types/cookie                                                                 0.4.1                                              npm        
 @types/cors                                                                   2.8.13                                             npm        
-@types/node                                                                   20.3.1                                             npm        
+@types/node                                                                   20.3.3                                             npm        
 PyGObject                                                                     3.38.0                                             python     
 abbrev                                                                        1.1.1                                              npm        
 abbrev                                                                        2.0.0                                              npm        
@@ -128,7 +128,7 @@ ejs                                                                           3.
 emoji-regex                                                                   8.0.0                                              npm        
 encodeurl                                                                     1.0.2                                              npm        
 encoding                                                                      0.1.13                                             npm        
-engine.io                                                                     6.5.0                                              npm        
+engine.io                                                                     6.5.1                                              npm        
 engine.io-parser                                                              5.1.0                                              npm        
 env-paths                                                                     2.2.1                                              npm        
 err-code                                                                      2.0.3                                              npm        
@@ -962,7 +962,7 @@ once                                                                          1.
 openbox                                                                       3.6.1-9+deb11u1                                    deb        
 openssh-client                                                                1:8.4p1-5+deb11u1                                  deb        
 openssl                                                                       1.1.1n-0+deb11u5                                   deb        
-opera-stable                                                                  100.0.4815.20                                      deb        
+opera-stable                                                                  100.0.4815.30                                      deb        
 p-map                                                                         4.0.0                                              npm        
 pacote                                                                        15.1.1                                             npm        
 parse-conflict-json                                                           3.0.0                                              npm        
@@ -1034,7 +1034,7 @@ sigs.k8s.io/structured-merge-diff/v4                                          v4
 sigs.k8s.io/yaml                                                              v1.2.0                                             go-module  
 sigstore                                                                      1.0.0                                              npm        
 smart-buffer                                                                  4.2.0                                              npm        
-socket.io                                                                     4.7.0                                              npm        
+socket.io                                                                     4.7.1                                              npm        
 socket.io-adapter                                                             2.5.2                                              npm        
 socket.io-parser                                                              4.2.4                                              npm        
 socks                                                                         2.7.1                                              npm        
