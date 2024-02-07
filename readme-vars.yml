@@ -78,4 +78,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "06.01.24:", desc: "Rebase to Debian Bookworm." }
   - { date: "09.04.23:", desc: "Initial release." }
