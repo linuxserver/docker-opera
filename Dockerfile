@@ -11,6 +11,10 @@ LABEL maintainer="thelamer"
 ENV TITLE=Opera
 
 RUN \
+  echo "**** add icon ****" && \
+  curl -o \
+    /kclient/public/icon.png \
+    https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/opera-icon.png && \
   apt-get update && \
   apt-get install --no-install-recommends -y \
     gsettings-desktop-schemas && \
@@ -35,9 +39,6 @@ RUN \
   mv \
     /usr/lib/chromium-browser/libffmpeg.so \
     /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so && \
-  sed -i \
-    's|</applications>|  <application title="*Opera" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' \
-    /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
