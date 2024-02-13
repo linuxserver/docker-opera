@@ -1204,7 +1204,7 @@ on-finished                                                                   2.
 openbox                                                                       3.6.1-10                                     deb        
 openssh-client                                                                1:9.2p1-2+deb12u2                            deb        
 openssl                                                                       3.0.11-1~deb12u2                             deb        
-opera-stable                                                                  107.0.5045.15                                deb        
+opera-stable                                                                  107.0.5045.21                                deb        
 p-map                                                                         4.0.0                                        npm        
 packagekit                                                                    1.2.6-5                                      deb        
 pacote                                                                        17.0.4                                       npm        
