@@ -31,14 +31,6 @@ RUN \
   mv \
     /usr/bin/opera \
     /usr/bin/opera-real && \
-  FFMPEG_DEB=$(curl -sL http://security.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/ | awk -F'"' '/ffmpeg-extra/ && /amd64/ {print $8}' | tail -1) && \
-  curl -o \
-    /tmp/chromiumffmpeg.deb -L \
-    "http://security.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/${FFMPEG_DEB}" && \
-  dpkg -i /tmp/chromiumffmpeg.deb && \
-  mv \
-    /usr/lib/chromium-browser/libffmpeg.so \
-    /usr/lib/x86_64-linux-gnu/opera/libffmpeg.so && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
