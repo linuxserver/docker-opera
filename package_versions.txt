@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                               npm                         
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   20.11.25                                            npm                         
+@types/node                                                                   20.11.26                                            npm                         
 PyGObject                                                                     3.42.2                                              python                      
 PyJWT                                                                         2.6.0                                               python                      
 abbrev                                                                        2.0.0                                               npm                         
@@ -614,7 +614,7 @@ has-proto                                                                     1.
 has-symbols                                                                   1.0.3                                               npm                         
 has-unicode                                                                   2.0.1                                               npm                         
 hasown                                                                        2.0.0                                               npm                         
-hasown                                                                        2.0.1                                               npm                         
+hasown                                                                        2.0.2                                               npm                         
 hosted-git-info                                                               7.0.1                                               npm                         
 hostname                                                                      3.23+nmu1                                           deb                         
 http-cache-semantics                                                          4.1.1                                               npm                         
@@ -1221,7 +1221,7 @@ on-finished                                                                   2.
 openbox                                                                       3.6.1-10                                            deb                         
 openssh-client                                                                1:9.2p1-2+deb12u2                                   deb                         
 openssl                                                                       3.0.11-1~deb12u2                                    deb                         
-opera-stable                                                                  108.0.5067.24                                       deb                         
+opera-stable                                                                  108.0.5067.28                                       deb                         
 p-map                                                                         4.0.0                                               npm                         
 packagekit                                                                    1.2.6-5                                             deb                         
 pacote                                                                        17.0.4                                              npm                         
