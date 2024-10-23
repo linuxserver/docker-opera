@@ -31,7 +31,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                               npm                          
 @types/cookie                                                                 0.4.1                                               npm                          
 @types/cors                                                                   2.8.17                                              npm                          
-@types/node                                                                   22.7.5                                              npm                          
+@types/node                                                                   22.7.7                                              npm                          
 abbrev                                                                        2.0.0                                               npm                          
 accepts                                                                       1.3.8                                               npm                          
 adduser                                                                       3.134                                               deb                          
@@ -1176,7 +1176,7 @@ on-finished                                                                   2.
 openbox                                                                       3.6.1-10                                            deb                          
 openssh-client                                                                1:9.2p1-2+deb12u3                                   deb                          
 openssl                                                                       3.0.14-1~deb12u2                                    deb                          
-opera-stable                                                                  114.0.5282.102                                      deb                          
+opera-stable                                                                  114.0.5282.115                                      deb                          
 p-map                                                                         4.0.0                                               npm                          
 packagekit                                                                    1.2.6-5                                             deb                          
 pacote                                                                        18.0.3                                              npm                          
