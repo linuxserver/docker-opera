@@ -6,6 +6,7 @@ project_url: "https://www.opera.com/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/opera-icon.png"
 project_blurb: "[Opera]({{ project_url }}) is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Web Browser"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
