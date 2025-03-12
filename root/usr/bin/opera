@@ -1,5 +1,10 @@
 #! /bin/bash
 
+# Cleanup
+if ! pgrep opera > /dev/null;then
+  rm -f $HOME/.config/opera/Singleton*
+fi
+
 BIN=/usr/bin/opera-real
 LANG=$(echo $LC_ALL| sed 's/\.UTF-8//g'| sed 's/_/-/g')
 LANG_SHORT=$(echo $LANG | awk -F'-' '{print $1}')
