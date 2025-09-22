@@ -15,9 +15,4 @@ if [ -f /usr/lib/x86_64-linux-gnu/opera/localization/${LANG}.pak ]; then
   LANG_CLI="--lang=${LANG}"
 fi
 
-# Run normally on privved containers or modified un non priv
-if grep -q 'Seccomp:.0' /proc/1/status; then
-  ${BIN} --password-store=basic ${LANG_CLI} "$@"
-else
-  ${BIN} --password-store=basic --no-sandbox --test-type ${LANG_CLI} "$@"
-fi
+${BIN} --password-store=basic --no-sandbox --test-type ${LANG_CLI} "$@"
