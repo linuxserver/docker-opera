@@ -69,7 +69,7 @@ dnspython                                                                     2.
 docker-buildx-plugin                                                          0.29.1-1~debian.13~trixie               deb                         
 docker-ce                                                                     5:28.5.1-1~debian.13~trixie             deb                         
 docker-ce-cli                                                                 5:28.5.1-1~debian.13~trixie             deb                         
-docker-compose-plugin                                                         2.40.1-1~debian.13~trixie               deb                         
+docker-compose-plugin                                                         2.40.2-1~debian.13~trixie               deb                         
 dpkg                                                                          1.22.21                                 deb                         
 dunst                                                                         1.12.2-1                                deb                         
 evdev                                                                         1.9.2                                   python                      
@@ -199,7 +199,7 @@ github.com/docker/cli                                                         v2
 github.com/docker/cli                                                         v28.5.1+incompatible                    go-module                   
 github.com/docker/cli-docs-tool                                               v0.10.0                                 go-module  (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                 go-module                   
-github.com/docker/compose/v2                                                  v0.0.0-20251017130737-be8c7e6c60c6      go-module                   
+github.com/docker/compose/v2                                                  v0.0.0-20251022173216-6007d4c7e7b7      go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v28.4.0+incompatible                    go-module                   
 github.com/docker/docker                                                      v28.5.1                                 go-module  (+1 duplicate)   
@@ -969,7 +969,7 @@ openbox                                                                       3.
 openssh-client                                                                1:10.0p1-7                              deb                         
 openssl                                                                       3.5.1-1+deb13u1                         deb                         
 openssl-provider-legacy                                                       3.5.1-1+deb13u1                         deb                         
-opera-stable                                                                  122.0.5643.142                          deb                         
+opera-stable                                                                  123.0.5669.23                           deb                         
 packaging                                                                     24.2                                    python                      
 pasimple                                                                      0.0.3                                   python                      
 passwd                                                                        1:4.17.4-2                              deb                         
