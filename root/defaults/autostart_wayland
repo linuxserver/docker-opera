@@ -1,0 +1,2 @@
+#! /bin/bash
+opera --enable-features=UseOzonePlatform --ozone-platform=wayland ${OPERA_CLI}

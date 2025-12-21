@@ -110,6 +110,7 @@ init_diagram: |
   "opera:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "20.12.25:", desc: "Add Wayland init logic."}
   - {date: "22.09.25:", desc: "Rebase to Debian Trixie."}
   - {date: "03.07.25:", desc: "Rebase to Selkies HTTPS is now required."}
   - {date: "12.03.25:", desc: "Clear singletons on launch to properly support persistance."}
