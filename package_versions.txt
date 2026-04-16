@@ -1046,7 +1046,7 @@ openbox                                                                       3.
 openssh-client                                                                1:10.0p1-7+deb13u2                     deb                         
 openssl                                                                       3.5.5-1~deb13u2                        deb                         
 openssl-provider-legacy                                                       3.5.5-1~deb13u2                        deb                         
-opera-stable                                                                  130.0.5847.12                          deb                         
+opera-stable                                                                  130.0.5847.41                          deb                         
 packaging                                                                     26.0                                   python                      
 pasimple                                                                      0.0.3                                  python                      
 passwd                                                                        1:4.17.4-2                             deb                         
