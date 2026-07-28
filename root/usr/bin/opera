@@ -15,4 +15,23 @@ if [ -f /usr/lib/x86_64-linux-gnu/opera/localization/${LANG}.pak ]; then
   LANG_CLI="--lang=${LANG}"
 fi
 
-${BIN} --password-store=basic --no-sandbox --test-type ${LANG_CLI} "$@"
+# Wayland check
+if ls -l /dev/dri/* > /dev/null 2>&1; then
+  if pgrep labwc > /dev/null 2>&1; then
+    WAYLAND="--ozone-platform=wayland"
+  fi
+fi
+
+# Pelorus accessibility
+if [ "${PELORUS,,}" == "true" ]; then
+  ACCESSIBILITY="--force-renderer-accessibility"
+fi
+
+${BIN} \
+  --password-store=basic \
+  --no-sandbox \
+  --test-type \
+  ${WAYLAND} \
+  ${ACCESSIBILITY} \
+  ${LANG_CLI} \
+  "$@"
