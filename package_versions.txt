@@ -1099,7 +1099,7 @@ openbox                                                                       3.
 openssh-client                                                                1:10.0p1-7+deb13u4                      deb                         
 openssl                                                                       3.5.7-1~deb13u2                         deb                         
 openssl-provider-legacy                                                       3.5.7-1~deb13u2                         deb                         
-opera-stable                                                                  136.0.6008.52                           deb                         
+opera-stable                                                                  135.0.5973.142                          deb                         
 packaging                                                                     26.0                                    python                      
 passwd                                                                        1:4.17.4-2                              deb                         
 pci.ids                                                                       0.0~2025.06.09-1                        deb                         
