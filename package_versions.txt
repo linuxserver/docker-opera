@@ -1025,7 +1025,7 @@ openssh-client                                                                1:
 openssl                                                                       3.5.7-1~deb13u3                        deb                         
 openssl-provider-legacy                                                       3.5.7-1~deb13u3                        deb                         
 opentelemetry-api                                                             1.45.2                                 python                      
-opera-stable                                                                  140.0.6074.17                          deb                         
+opera-stable                                                                  140.0.6074.18                          deb                         
 packaging                                                                     26.3                                   python                      
 passwd                                                                        1:4.17.4-2                             deb                         
 pci.ids                                                                       0.0~2025.06.09-1                       deb                         
